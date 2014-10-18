@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+	<head><title>Promo Platform</title>
+	<meta charset="UTF-8">
+	<link href="menu.css" type="text/css" rel="stylesheet" />
+	<link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+   <body >
+    <div id="zapisy">
+     
+    </div>
+   
+    <div id="logo">
+    <img src="logo.png" alt="[tekst alternatywny]" width="300px">
+    </div>
+
+  <div id="logout">
+    <img src="logout.png" alt="[tekst alternatywny]" width="120px">
+    </div>
+    
+   <div id="calendar">
+   <div id="test">
+    <img src="calendar.png" alt="[tekst alternatywny]" >
+    </div>
+    </div>
+    <div id="transbox">
+    
+    </div>
+    
+     
+    
+     <div id="top">
+     				<div id="topn">
+     				<b>Kalendarz</b>
+     				</div>
+     				<div id="topk">
+     							<div id="topkk">
+    							 <img src="calendar.png" alt="[tekst alternatywny]" width="20px" >
+    							 </div>
+     				</div>
+     				<div id="left">
+     					 <img src="left.png">     
+     				</div>
+     				<div id="right">
+     					 <img src="right.png">     
+     				</div>
+    </div>
+     
+     <div id="konto1">
+     <div id="nazwa">
+     TWOJE KONTO
+     </div>
+    </div>
+    <div id="konto12">
+     
+    </div>
+    <div id="panel">
+   
+    			<div id="wyklady">
+   			 WYKŁADY
+    			</div>
+    			<div id="ulotki">
+   			 ULOTKI
+   			 </div>
+   			 <div id="plakaty">
+   			 PLAKATY
+    			</div>
+         
+    </div>
+  
+    
+    </body>
+    </html>

@@ -1,0 +1,196 @@
+#logout {
+
+	
+ position:absolute;
+ top:5%; right:23%;
+	
+
+}
+#topk{
+	width: 50px;
+	height: 50px;
+ position:absolute;
+ top:0%; left:0%;
+background-color: blue;
+text-align: center;
+line-height: 0px;
+margin: 0 auto;
+}
+#topkk{
+position:absolute;
+	top: 20%;
+left: 30%
+}
+#topn{
+position:absolute;
+	top: 20%;
+left: 10%
+
+}
+#left{
+position:absolute;
+	top: 10%;
+right: 9%
+}
+#right{
+position:absolute;
+	top: 10%;
+right: 1%
+}
+	
+#calendar {
+
+	width: 40px;
+	height: 40px;
+ position:absolute;
+ top:5%; left:60%;
+background-color: blue;
+text-align: center;
+line-height: 0px;
+margin: 0 auto;
+}
+#test{
+position:absolute;
+	top: 20%;
+left: 30%
+}
+#logo {
+
+	filter:alpha(opacity=70);
+ position:absolute;
+ top:5%; left:5%;
+	opacity: 0.7;
+	-moz-opacity:0.7;
+}
+
+
+#transbox {
+	width: 40px;
+	height: 40px;
+	background-color: red;
+	filter:alpha(opacity=80);
+ position:absolute;
+ top:5%; left:65%;
+	opacity: 0.5;
+	-moz-opacity:0.5;
+
+}
+
+#zapisy {
+	width: 550px;
+	height: 380px;
+	background-color: white;
+	
+ position:absolute;
+ top:30%; right:  23%;
+	
+
+}
+
+
+#top {
+	width: 550px;
+	height: 50px;
+	background-color: lightblue;
+	
+ position:absolute;
+ top:22.5%; right:  23%;
+	
+
+}
+
+#panel {
+
+	width: 550px;
+ position:absolute;
+ top:18%; left:  37%;
+ 
+
+ 
+ }
+ #wyklady{
+ position:absolute;
+ top:18%; left:  0%;
+ background-color: orange;
+}
+#ulotki {
+ position:absolute;
+ top:18%; left:  19%;
+ background-color: lightgreen;
+}
+#plakaty {
+ position:absolute;
+ top:18%; left:  34%;
+background-color: lightgreen;
+}
+
+#konto1 {
+	width: 250px;
+	height: 190px;
+	background-color: white;
+	
+ position:absolute;
+ top:22.5%; right:  64%;
+	
+
+}
+.nazwa{
+width: 250px;
+position:absolute;
+ top:22.5%; right:  64%;
+}
+
+
+#konto12 {
+	width: 250px;
+	height: 190px;
+	background-color: white;
+	
+ position:absolute;
+ top:52.5%; right:  64%;
+
+
+}
+#transbox div {
+	padding: 20px;
+	color: #000;
+	filter:alpha(opacity=100);
+	opacity: 1;
+	-moz-opacity:1;
+}
+#stopka { 
+    position:absolute; 
+    bottom:0; 
+    left:15%; 
+    margin-left:200px; 
+    width:400px;
+
+color: green;
+	filter:alpha(opacity=60);
+opacity: 0.6;
+	-moz-opacity:0.6;}
+
+html,body { 
+  background-color: lightgray;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+margin:0;
+  padding:0;
+  height:100%;
+
+
+}
+
+html, body, #wrapper {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+
+#wrapper td {
+   vertical-align: middle;
+   text-align: center;
+}

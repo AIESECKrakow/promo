@@ -1,0 +1,410 @@
+.landing {
+
+width: 100%;
+height: 96%;
+z-index: 1;
+text-align: center;
+background-color: #1e4394;
+
+}
+
+.main {
+
+margin: 0px auto;
+width: 1070px;
+
+}
+
+
+
+.sign {
+width: 100%;
+z-index: 9;
+position:absolute;
+top:15%;
+margin: 0px auto;
+text-align: center;
+}
+
+
+body {
+font-family: 'Ubuntu', sans-serif;
+color: #ffffff;
+margin: 0px;
+padding: 20px;
+background-color: #1f253d;
+font-size: 14px;
+
+
+
+}
+
+::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+table {
+font-family: 'Ubuntu', sans-serif;
+color: #ffffff;
+font-size: 14px;
+border-right: 1px solid #535a77;
+padding-right: 3px;
+margin-right: 3px;
+}
+
+
+
+
+
+.clear {
+
+clear: both;
+}
+
+
+a.podpowiedz span {
+    display: none;
+    padding: 2px 3px;
+    margin-left: 8px;
+
+}
+img {
+	border: none;
+}
+a.podpowiedz:hover span{
+    display: inline;
+position: absolute;
+
+   background: #50587c;
+    border: 1px solid #b2b8c9;
+    color: #ffffff;
+    font-size: 14px;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+	text-align: center;
+}
+
+.frigth {
+  float: right;
+}
+  .frigth_r {
+  float: right;
+  color: red;
+}
+
+
+.left {
+
+width: 300px;
+float: left;
+
+}
+
+.right {
+float: left;
+
+margin-left: 20px;
+overflow-x: auto;
+width: 750px;
+
+
+}
+
+
+
+
+
+.box_content_calendar {
+padding: 20px;
+overflow-x:auto;
+overflow-y:auto;
+
+
+white-space:nowrap;
+
+
+}
+
+.box_content_r {
+
+padding: 20px;
+overflow-y:auto;
+padding-bottom: 0px;
+ height: 250px;
+
+}
+
+
+
+
+
+
+.logo {
+background-color: #cc324c;
+border-radius: 4px;
+color: #ffffff;
+text-align: center;
+padding: 15px;
+}
+
+.konto {
+  margin-top: 20px;
+background-color: #394165;
+border-radius: 4px;
+color: #ffffff;
+
+
+}
+
+.ranking {
+  margin-top: 20px;
+background-color: #404972;
+border-radius: 4px;
+color: #c6cbda;
+padding-bottom: 20px;
+
+}
+
+.box_content {
+padding: 20px;
+}
+  .box_header {
+background-color: #6DCB47  ;
+color: #ffffff;
+text-align: center;
+padding: 5px;
+font-weight: bold;
+font-size: 16px;
+border-radius: 4px 4px 0 0;
+
+}
+
+
+
+
+ .logo {
+background-color: #cc324c;
+border-radius: 4px;
+color: #ffffff;
+text-align: center;
+height: 55px;
+padding: 0px;
+padding-top: 20px;
+font-size: 24px;
+}
+
+
+
+
+
+.kalendarz {
+  margin-top: 20px;
+background-color: #394165;
+border-radius: 4px;
+color: #ffffff;
+
+
+
+}
+
+
+.k_name {
+font-size: 18px;
+text-align: center;
+}
+.k_mail {
+color: #8e96b3;
+text-align: center;
+}
+
+.k_level {
+  font-size: 20px;
+  padding: 5px;
+
+color: #8e96b3;
+text-align: center;
+}
+
+ .k_exp {
+
+color: #8e96b3;
+text-align: center;
+margin-bottom: 20px;
+}
+
+meter {
+  width: 250px;
+  height: 10px;
+     background: #87C7DE;
+}
+
+
+
+
+.k_photo {
+text-align: center;
+}
+
+.k_photo img {
+max-width: 260px;
+}
+
+.button1 {
+float: left;
+width: 129px;
+border-right: 1px solid #394165;
+border-top: 4px solid #70ec3e;
+background-color: #50587c;
+padding: 10px;
+font-size: 18px;
+text-align: center;
+height: 31px;
+border-radius: 0 0 4px 4px;
+}
+
+.button2 {
+float: left;
+padding: 10px;
+width: 130px;
+border-top: 4px solid #e64c66;
+background-color: #50587c;
+font-size: 18px;
+text-align: center;
+height: 31px;
+border-radius: 0 0 4px 4px;
+
+}
+
+.kalendarz_header {
+border-radius: 4px 4px 0 0;
+background-color: #3469af;
+text-align: center;
+padding: 15px;
+}
+
+
+ .menu a {
+text-decoration: none;
+color: #ffffff;
+}
+
+.menu li {
+float:left;
+padding-top: 25px;
+font-size: 18px;
+padding-left: 30px;
+padding-right: 30px;
+height: 50px;
+}
+
+
+.menu img {
+margin-right: 10px;
+}
+
+
+.menu li:hover {
+font-size: 18px;
+background-color: #50587c;
+}
+
+ .menu {
+   padding-left: 20px;
+      padding-right: 20px;
+background-color: #394165;
+border-radius: 4px;
+color: #ffffff;
+height: 75px;
+}
+
+.dzien {
+display: inline-block;
+}
+
+.dzien2 {
+display: inline-block;
+background-color: #315454;
+}
+
+ .dzienk {
+color: #3469af;
+font-weight: bold;
+}
+
+.univ {
+ text-align: center;
+ background-color: #50587c;
+ padding: 5px;
+}
+
+.data {
+ text-align: center;
+ font-size: 16px;
+}
+
+.godzina img {
+
+vertical-align: middle;
+margin-left: 2px;
+
+}
+
+       .box {
+background-color: #404972;
+border-radius: 4px;
+
+}
+
+
+.zapisz {
+padding: 10px;
+font-size: 18px;
+background-color: #3469af;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.zapisz a {
+text-decoration: none;
+color: #ffffff;
+}
+
+.wypisz {
+padding: 10px;
+font-size: 18px;
+background-color: #cc324c;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.wypisz a {
+text-decoration: none;
+color: #ffffff;
+}
+
+.box_content input {
+
+  background-color: #50587c;
+  padding: 5px;
+  width: 350px;
+  border: 1px solid #2d3556;
+  color: #ffffff;
+  border-radius: 4px;    
+
+}
+
+
+
