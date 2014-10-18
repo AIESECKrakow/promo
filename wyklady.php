@@ -71,7 +71,7 @@ if ($gp_name == $uss['gp_name']) {
 
  if (empty($confir)) { echo "<span id=\"".$ev_id."u\"><a href=\"#\" class=\"podpowiedz\"><img src=\"theme/useruc.png\"><span>".$gp_name2."</span></a></span>"; }  else {
 
- echo "<span id=\"".$ev_id."u\"><a href=\"#\" class=\"podpowiedz\"><img src=\"theme/useru.png\"><span>".$gp_name2."</span></a></span>";
+ echo "<span id=\"".$ev_id."u\"><a href=\"".$confir."\" target=\"_blank\" class=\"podpowiedz\"><img src=\"theme/useru.png\"><span>".$gp_name2."</span></a></span>";
  }
 
 
@@ -81,7 +81,7 @@ if ($gp_name == $uss['gp_name']) {
 
  if (empty($confir)) { echo "<a href=\"#\" class=\"podpowiedz\"><img src=\"theme/userc.png\"><span>".$gp_name2."</span></a>"; }  else {
 
- echo "<a href=\"#\" class=\"podpowiedz\"><img src=\"theme/user.png\"><span>".$gp_name2."</span></a>";
+ echo "<a href=\"".$confir."\" target=\"_blank\" class=\"podpowiedz\"><img src=\"theme/user.png\"><span>".$gp_name2."</span></a>";
  }
 }
 

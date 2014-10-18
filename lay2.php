@@ -24,10 +24,11 @@
 
   <div id="include"></div>            <div id="include2"></div>
     <div class="menu"> 
-	<li><img src="theme/wyklady.png" style="vertical-align: middle"/><a href="index.php?typ=wyklady">Wykłady</a></li>
-	<li><img src="theme/ulotki.png" style="vertical-align: middle"/><a href="index.php?typ=ulotki">Ulotki</a></li>
-	<li><img src="theme/plakaty.png" style="vertical-align: middle"/><a href="index.php?typ=plakaty">Plakaty</a></li>
-	<li><a href="index.php?typ=eventy">Eventy</a></li>      <li><a href="index.php?typ=inne">Inne</a></li>     
+	<a href="index.php?typ=wyklady"><li><img src="theme/wyklady.png" style="vertical-align: middle"/>Wykłady</li></a>
+	<a href="index.php?typ=ulotki"><li><img src="theme/ulotki.png" style="vertical-align: middle"/>Ulotki</li></a>
+	<a href="index.php?typ=plakaty"><li><img src="theme/plakaty.png" style="vertical-align: middle"/>Plakaty</li></a>
+	<a href="index.php?typ=eventy"><li>Eventy</li></a>     
+	<a href="index.php?typ=inne"><li>Inne</li></a>     
  </div>
 
 
