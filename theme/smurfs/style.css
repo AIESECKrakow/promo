@@ -167,7 +167,7 @@ color: #fff;
 
 .konto {
   margin-top: 20px;
-background-color: rgba(57, 65, 101, 0.9) /* #394165 */;
+
 border-radius: 4px;
 color: #ffffff;
 
@@ -185,7 +185,7 @@ padding-bottom: 20px;
 
 .box_content {
 padding: 20px;
-
+background-color: rgba(57, 65, 101, 0.9) /* #394165 */;
 }
   .box_header {
 background-color: #6DCB47  ;

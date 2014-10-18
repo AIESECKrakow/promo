@@ -1,7 +1,11 @@
 ﻿<?php
-if ($pkt <= 100) {
-echo "<div class=\"k_photo\"><img src=\"theme/smurfs/img/not_smurfy.jpg\"></div><div class=\"k_level\">Kochaniutki smerf  (".$pkt." pkt)</div>
-<div class=\"k_exp\">  <meter value=\"".$pkt."\" min=\"0\" max=\"20\"></meter></div>";  }
+if ($pkt <= 10) {
+echo "<div class=\"k_photo\"><img src=\"theme/smurfs/img/not_smurfy.jpg\"></div><div class=\"k_level\">Smerf Rzeźnik  (".$pkt." pkt)</div>
+<div class=\"k_exp\">  <meter value=\"".$pkt."\" min=\"0\" max=\"10\"></meter></div>";  }
+
+else if ($pkt <= 20) {
+echo "<div class=\"k_photo\"><img src=\"theme/smurfs/img/papasmurf.jpg\"></div><div class=\"k_level\">Papa Smerf (".$pkt." pkt)</div>
+<div class=\"k_exp\">  <meter value=\"".$pkt."\" min=\"10\" max=\"20\"></meter></div>";  }
 /*
 else if ($pkt <= 40) {
 echo "<div class=\"k_photo\"><img src=\"theme/jig.jpeg\"></div><div class=\"k_level\">Jigsaw (".$pkt." pkt)</div>

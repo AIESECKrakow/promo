@@ -93,7 +93,11 @@ include("ulotki.php");
 
 
     </div>
- </div>  <div class="box_content"> <div class="legenda"> <img src="theme/useruc.png" /> Twoja aktywność (nie potwierdzona) <br /><img src="theme/useru.png" /> Twoja aktywnosć (potwierdzona)<br /> <br /><img src="theme/userc.png" /> Aktywność (nie potwierdzona) <br /><img src="theme/user.png" /> Aktywność (potwierdzona) </div>
+	
+ </div> 
+ <div class="box_content"> <div class="legenda">
+ <hr/> 
+ <img src="theme/useruc.png" /> Twoja aktywność (nie potwierdzona) <br /><img src="theme/useru.png" /> Twoja aktywnosć (potwierdzona)<br /> <br /><img src="theme/userc.png" /> Aktywność (nie potwierdzona) <br /><img src="theme/user.png" /> Aktywność (potwierdzona) </div>
   </div> </div>   <br class="clear"/></div>
 
 
