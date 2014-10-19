@@ -6,6 +6,10 @@ echo "<div class=\"k_photo\"><img src=\"theme/smurfs/img/not_smurfy.jpg\"></div>
 else if ($pkt <= 20) {
 echo "<div class=\"k_photo\"><img src=\"theme/smurfs/img/papasmurf.jpg\"></div><div class=\"k_level\">Papa Smerf (".$pkt." pkt)</div>
 <div class=\"k_exp\">  <meter value=\"".$pkt."\" min=\"10\" max=\"20\"></meter></div>";  }
+
+else { /* Maksymalny poziom */
+echo "<div class=\"k_photo\"><img src=\"theme/smurfs/img/papasmurf.jpg\"></div><div class=\"k_level\">Papa Smerf +20 (".$pkt." pkt)</div>
+<div class=\"k_exp\">  <meter value=\"".$pkt."\" min=\"10\" max=\"20\"></meter></div>";  }
 /*
 else if ($pkt <= 40) {
 echo "<div class=\"k_photo\"><img src=\"theme/jig.jpeg\"></div><div class=\"k_level\">Jigsaw (".$pkt." pkt)</div>

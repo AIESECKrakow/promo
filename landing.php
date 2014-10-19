@@ -6,7 +6,7 @@
 </head>
 <body style="margin: 0px; padding: 0px; background-color: #1e4394;">
 
-<div class="landing"> <img src="theme/smurfs/img/not_smurfy2.jpg" height="100%" /></div>
+<div class="landing"> </div>
  <div class="sign">            <div class="login_sign">
 <?
 
