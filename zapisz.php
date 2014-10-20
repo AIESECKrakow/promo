@@ -62,6 +62,7 @@ if (!empty($gccous)) {
  echo "<br><li class=\"zapisz\">Twój udział w aktywności jest już potwierdzony</li>";
 }  else {
 
+# Pole potwierdzania aktywności - walidacja pola -> nie może być puste, zawartość musi być URLem
 if (empty($_POST["confirm"])) {
 echo "<br><form action=\"zapisz.php?user_id=".$user_id."&event_id=".$event_id."&status=con\" method=\"post\">
 <div class=\"box\"><div class=\"box_header\">Potwierdz udział w aktywności</div><div class=\"box_content\"><center>Dodaj link do zdjęcia z krk na dziko.<br><br>Za zdjęcie naliczane jest dodatkowe 0.5pkt<br> <br><input type=\"url\" placeholder=\"Wklej tutaj link do zdjęcia na @ na dziko.\" name=\"confirm\" required ><br>
