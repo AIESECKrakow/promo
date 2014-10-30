@@ -1,10 +1,25 @@
+Skip to content
+ This repository
+Explore
+Gist
+Blog
+Help
+Patryk Kalinowski ZyzioZiom
+ 
+1  Unwatch 
+  Star 0
+ Fork 0AIESECKrakow/promo
+ branch: master  promo / theme / smurfs / style.css
+Patryk KalinowskiZyzioZiom 11 days ago Dodany maksymalny poziom, lekkie poprawki styli w landing.php
+1 contributor
+428 lines (303 sloc)  5.514 kb RawBlameHistory  
 .landing {
 
 width: 100%;
 height: 100%;
 z-index: 1;
 text-align: center;
-background: url(img/bg2.jpg) no-repeat top center #266acf;
+background: black;
 background-size: 100% auto;
 
 }
@@ -17,16 +32,51 @@ width: 1070px;
 }
 
 
+#video {
+top: 0%; 
+height:100%; 
+position: fixed; 
+margin: 0px; 
+padding: 0px; 
+width: 100%; 
+background: black;
+}
+
 
 .sign {
 width: 100%;
 z-index: 9;
 position:absolute;
-top:15%;
+bottom:5%;
 margin: 0px auto;
+padding: 10px;
 text-align: center;
+background: rgba(0,0,0,0.8);
 }
 
+.smerfowanie {
+width: 100%;
+margin: 0 auto;
+position: absolute;
+top: 30%;
+text-align: center;
+z-index: 100;
+}
+
+.image {
+    position: absolute
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
 
 body {
 font-family: 'Ubuntu', sans-serif;
@@ -424,4 +474,7 @@ color: #ffffff;
 }
 
 
+
+Status API Training Shop Blog About
+© 2014 GitHub, Inc. Terms Privacy Security Contact
 
