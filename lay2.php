@@ -22,7 +22,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  <div class="logo"><a href="./index.php"><div>SMERFNE PROMO</div></a></div>
  <div class="konto">   <? include("konto.php");      ?>
 </div>
- <div class="ranking"> <div class="box_header">Ranking</div>  <div class="box_content_r">  <? include("ranking.php");  ?> </div>
+ <div class="ranking"> <div class="box_header">Najsmerfniejsi</div>  <div class="box_content_r">  <? include("ranking.php");  ?> </div>
 </div>
 
 

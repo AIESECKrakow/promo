@@ -70,7 +70,7 @@ echo "<div class=\"k_photo\"><img src=\"theme/smurfs/img/postacie/papasmerf.png\
 
 else { /* Maksymalny poziom */
 echo "<div class=\"k_photo\"><img src=\"theme/smurfs/img/postacie/rzeznik.jpg\"></div><div class=\"k_level\">Smerf RZEŹNIK <br/> (".$pkt." smerfozabójstw)</div>
-<div class=\"k_exp\">  <meter value=\"".$pkt."\" min=\"0\" max=\"0\"></meter></div>";  }
+<div class=\"k_exp\">  <meter value=\"".$pkt."\" min=\"136\" max=\"136\"></meter></div>";  }
 
 
 ?>

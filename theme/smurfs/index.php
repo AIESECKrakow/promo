@@ -68,6 +68,20 @@ $('.smerfowanie').fadeOut('slow');
 }, 1000);
 }
 </script>
+
+<script>
+// div ładowania znika zawsze po 8 sekundach
+setTimeout(function() {
+$('.smerfowanie').fadeOut('slow');
+}, 8000);
+</script>
+
+<script>
+// logowanie google wychodzi na środek po zakończeniu filmiku
+$('#video').bind('ended', function() {
+$('.sign').css('bottom', '40%');
+});
+</script>
 		</body>
 		</head>
 		</html>
