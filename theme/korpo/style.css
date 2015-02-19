@@ -427,3 +427,9 @@ color: #ffffff;
 
 }
 
+.help {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-size: 6px;
+}

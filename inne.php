@@ -1,7 +1,7 @@
-﻿<?
+<?
 
 
-$ulotk = mysql_query("SELECT * FROM `pp_konkurencje` WHERE type='inne' GROUP BY date")
+$ulotk = mysql_query("SELECT * FROM `pp_konkurencje` WHERE type='inne' GROUP BY date ORDER BY date ASC")
 or die('Strona nie istnieje');
 if(mysql_num_rows($ulotk) > 0) {
 while($u = mysql_fetch_assoc($ulotk)) {
@@ -24,8 +24,8 @@ switch($dzien){
 
 
 
-$data1 = substr($data, 0, 2);
-$dzien = substr($dzien, 0, 2);
+$data1 = substr($data, 5, 5);
+//$dzien = substr($dzien, 0, 2);
 if ($dzien == 'Ś') {$dzien = 'Śr';}
 $datat = date("d-m-Y");
 
@@ -149,5 +149,3 @@ echo "</table>";
 
 
 ?>
-
-
