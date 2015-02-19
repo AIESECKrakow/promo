@@ -6,6 +6,7 @@
 </head>
 
 <body>
+  <img id="zyrafa" src="theme/korpo/img/zyrafa.png" />
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PJTMP5"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -49,25 +50,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <?
 
        if ($typ=='wyklady')  {
-echo " Kalendarz  | CLASS SHOUTY";
+echo " Class shouty | Przedstaw branżę od podszewki ";
 } else if ($typ=='ulotki') {
-echo " Kalendarz  | ULOTKI";
+echo " Ulotki | W pogoni za klientelą ";
 }
 else if ($typ=='plakaty') {
-echo " Kalendarz  | PLAKATY";
+echo " Plakaty | Poszukiwanie zasobów ludzkich ";
 }
 else if ($typ=='eventy') {
-echo " Kalendarz  | EVENTY";
+echo " Eventy | Wyjście na salony ";
 }
 else if ($typ=='inne') {
-echo " Kalendarz  | INNE";
+echo " Inne | Lubię placki ";
 }
 else if ($typ=='ranking') {
-echo " RANKING";
+echo " Wyścig szczurów ";
 }
 
  else {
-echo " Kalendarz  | ULOTKI";
+   $imie = strtok($gp_name, " ");
+echo " Witaj na Korpoplatformie, ".$imie."! Świetnie dziś wyglądasz.";
 }
 
       ?>

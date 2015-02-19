@@ -433,3 +433,10 @@ color: #ffffff;
   right: 0px;
   font-size: 6px;
 }
+
+#zyrafa {
+  height: 300px;
+  position: absolute;
+  right: 0px;
+  bottom: -280px;
+}

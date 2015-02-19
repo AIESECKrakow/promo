@@ -44,8 +44,9 @@ window.close();
    mysql_query("DELETE FROM pp_user_dyscypline WHERE user_id='$user_id' AND event_id='$event_id'");
 
 
-
-  echo " <input id='nn' name='tress' type='hidden' value='<li class=\"wypisz\">Wypisałeś się z konkurencji. Zostanie to uwzględnione w raporcie miesięcznym!</li>'> ";
+// tutaj jebne se gifa
+  echo "  <img id='nn' name'trees' type='hidden' src='http://fat.gfycat.com/ComplexFlickeringBuzzard.gif' />";
+  echo " <input id='nn' name='tress' type='hidden' value='<li class=\"wypisz\"> Zostanie to uwzględnione w raporcie miesięcznym!</li>'> ";
 echo " <input id='nn2' name='tress' type='hidden' value=''> ";
  echo "
 <script language='javascript' type='text/javascript'>
