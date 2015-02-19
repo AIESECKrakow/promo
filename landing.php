@@ -1,3 +1,3 @@
 
-<?php include 'theme/smurfs/index.php';?>
+<?php include 'theme/korpo/index.php';?>
 

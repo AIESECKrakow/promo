@@ -36,4 +36,4 @@ include("lay2.php");
 
 }
 
-?>  
+?>

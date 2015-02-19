@@ -12,7 +12,7 @@ if(mysql_num_rows($wynik) > 0) {
    mysql_query("INSERT INTO pp_user_dyscypline (user_id, event_id) VALUES ('$user_id', '$event_id')");
 
 
-echo " <input id='nn' name='tress' type='hidden' value='<li class=\"zapisz\">Smerfastycznie! Zapisałeś się na aktywność!</li>'> ";
+echo " <input id='nn' name='tress' type='hidden' value='<li class=\"zapisz\">Zapisałeś się na aktywność! Zabierz się za promowanie i potwierdź ją na ASAPIE!</li>'> ";
 echo " <input id='nn2' name='tress' type='hidden' value='<a href=\"#\" class=\"podpowiedz\"><img src=\"theme/useruc.png\"></a>'> ";
  echo "
 <script language='javascript' type='text/javascript'>
@@ -45,7 +45,7 @@ window.close();
 
 
 
-  echo " <input id='nn' name='tress' type='hidden' value='<li class=\"wypisz\">Wypisałeś się z konkurencji. Chyba brak ci niebieskiej klepki!</li>'> ";
+  echo " <input id='nn' name='tress' type='hidden' value='<li class=\"wypisz\">Wypisałeś się z konkurencji. Zostanie to uwzględnione w raporcie miesięcznym!</li>'> ";
 echo " <input id='nn2' name='tress' type='hidden' value=''> ";
  echo "
 <script language='javascript' type='text/javascript'>
@@ -95,7 +95,7 @@ if ($link2 == 'http')  {
 
 
 
-echo " <input id='nn' name='tress' type='hidden' value='<li class=\"zapisz\">Jeden mały krok dla smerfa to wielki krok dla smerfności. Właśnie otrzymałeś punkty za aktywność!</li>'> ";
+echo " <input id='nn' name='tress' type='hidden' value='<li class=\"zapisz\">Gratulacje! Wyrobiłeś 120% normy i dostajesz dodatkowe projekty do wykonania! Promuj dalej, podwyżka jest tuż tuż!</li>'> ";
 echo " <input id='nn2' name='tress' type='hidden' value='<a href=\"#\" class=\"podpowiedz\"><img src=\"theme/useru.png\"></a>'> ";
  echo "
 <script language='javascript' type='text/javascript'>

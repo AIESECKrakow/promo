@@ -83,8 +83,8 @@ font-family: 'Ubuntu', sans-serif;
 color: #ffffff;
 margin: 0px;
 padding: 20px;
-background: url(img/bg2.jpg) no-repeat top center #266acf;
-background-size: 100% auto;
+background: url(img/bg.jpg) no-repeat left center white;
+background-size: cover;
 font-size: 14px;
 
 

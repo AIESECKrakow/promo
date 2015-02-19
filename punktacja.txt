@@ -1,0 +1,6 @@
+wykład: 4
+ulotki: 2
+plakaty: 2
+eventy: 3
+inne: 1
+za każde zdjęcie: 0,5

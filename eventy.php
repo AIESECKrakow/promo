@@ -1,4 +1,4 @@
-﻿<?
+<?
 
 
 $ulotk = mysql_query("SELECT * FROM `pp_konkurencje` WHERE type='event' GROUP BY date")
@@ -27,7 +27,7 @@ switch($dzien){
 $data1 = substr($data, 0, 2);
 $dzien = substr($dzien, 0, 2);
 if ($dzien == 'Ś') {$dzien = 'Śr';}
-$datat = date("d-m-Y");
+$datat = date("dd-mm-Y");
 
 if ($data == $datat) {
 echo "<table class=\"dzien2\">";    }  else {
@@ -149,5 +149,3 @@ echo "</table>";
 
 
 ?>
-
-

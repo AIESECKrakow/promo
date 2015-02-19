@@ -2,7 +2,7 @@
 <head><title>Promo Platform</title>
 <meta charset="UTF-8">
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css'>
-<link href="theme/smurfs/style.css" type="text/css" rel="stylesheet" />
+<link href="theme/korpo/style.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
@@ -14,15 +14,14 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-PJTMP5');</script>
-<!-- End Google Tag Manager -->
-      
+<!-- End Google Tag Manager -->   
 <div class="main">
 <div class="left">
 
- <div class="logo"><a href="./index.php"><div>SMERFNE PROMO</div></a></div>
+ <div class="logo"><a href="./index.php"><div>KORPO PLATFORMA</div></a></div>
  <div class="konto">   <? include("konto.php");      ?>
 </div>
- <div class="ranking"> <div class="box_header">Najsmerfniejsi</div>  <div class="box_content_r">  <? include("ranking.php");  ?> </div>
+ <div class="ranking"> <div class="box_header">Korpoludki</div>  <div class="box_content_r">  <? include("ranking.php");  ?> </div>
 </div>
 
 
@@ -34,7 +33,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <div id="include"></div>            <div id="include2"></div>
     <div class="menu"> 
-	<a href="index.php?typ=wyklady"><li><img src="theme/wyklady.png" style="vertical-align: middle"/>Wykłady</li></a>
+	<a href="index.php?typ=wyklady"><li><img src="theme/wyklady.png" style="vertical-align: middle"/>Class shouty</li></a>
 	<a href="index.php?typ=ulotki"><li><img src="theme/ulotki.png" style="vertical-align: middle"/>Ulotki</li></a>
 	<a href="index.php?typ=plakaty"><li><img src="theme/plakaty.png" style="vertical-align: middle"/>Plakaty</li></a>
 	<a href="index.php?typ=eventy"><li>Eventy</li></a>     
@@ -50,7 +49,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <?
 
        if ($typ=='wyklady')  {
-echo " Kalendarz  | WYKŁADY";
+echo " Kalendarz  | CLASS SHOUTY";
 } else if ($typ=='ulotki') {
 echo " Kalendarz  | ULOTKI";
 }
@@ -116,7 +115,7 @@ include("ulotki.php");
 
 ?>
 
-
+</div>  
     </body>
     </html>
 

@@ -1,0 +1,429 @@
+html {
+  width: 100%;
+  height: 100%;
+
+}
+
+body {
+min-height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+color: #ffffff;
+margin: 0px;
+padding: 0px;
+background: url(img/bg2.jpg) no-repeat bottom center white;
+background-size: cover;
+  background-attachment: fixed;
+font-size: 14px;
+  padding: 20px;
+}
+
+
+.background-main {
+ 
+}
+
+.main {
+
+margin: 0px auto;
+width: 1070px;
+
+}
+
+
+
+.sign {
+
+z-index: 9;
+position:absolute;
+bottom: 10%;
+left: 20%;
+margin: 0px auto;
+padding: 10px;
+text-align: left;
+
+}
+
+
+
+::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+table {
+font-family: 'Ubuntu', sans-serif;
+color: #ffffff;
+font-size: 14px;
+border-right: 1px solid #535a77;
+padding-right: 3px;
+margin-right: 3px;
+}
+
+
+
+
+
+.clear {
+
+clear: both;
+}
+
+
+a.podpowiedz span {
+    display: none;
+    padding: 2px 3px;
+    margin-left: 8px;
+
+}
+img {
+	border: none;
+}
+a.podpowiedz:hover span{
+    display: inline;
+position: absolute;
+
+   background: #50587c; /* #50587c; */
+    border: 1px solid #b2b8c9;
+    color: #ffffff;
+    font-size: 14px;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+	text-align: center;
+}
+
+.frigth {
+  float: right;
+}
+  .frigth_r {
+  float: right;
+  color: red;
+}
+
+
+.left {
+
+width: 300px;
+float: left;
+
+}
+
+.right {
+float: left;
+
+margin-left: 20px;
+overflow-x: auto;
+width: 750px;
+
+
+}
+
+
+
+
+
+.box_content_calendar {
+padding: 20px;
+overflow-x:auto;
+overflow-y:auto;
+
+
+white-space:nowrap;
+
+
+}
+
+.box_content_r {
+
+padding: 20px;
+overflow-y:auto;
+padding-bottom: 0px;
+ height: 250px;
+
+}
+
+
+
+
+
+
+.logo {
+background-color: #cc324c;
+border-radius: 4px;
+color: #ffffff;
+text-align: center;
+padding: 15px;
+}
+
+.logo a {
+color: #fff;
+}
+
+.konto {
+  margin-top: 20px;
+
+border-radius: 4px;
+color: #ffffff;
+
+
+}
+
+.ranking {
+  margin-top: 20px;
+background-color: rgba(88, 105, 103, 0.8) /* #394165 */;/*#404972; */
+border-radius: 4px;
+color: #c6cbda;
+padding-bottom: 20px;
+
+}
+
+.box_content {
+padding: 20px;
+background-color: rgba(88, 105, 103, 0.3)  /* #394165 */;
+}
+  .box_header {
+background-color: rgba(88, 105, 103, 1)  ;
+color: #ffffff;
+text-align: center;
+padding: 5px;
+font-weight: bold;
+font-size: 16px;
+border-radius: 4px 4px 0 0;
+
+}
+
+
+
+
+ .logo {
+background-color: rgba(88, 105, 103, 0.8) ;
+border-radius: 4px;
+color: #ffffff;
+text-align: center;
+height: 55px;
+padding: 0px;
+padding-top: 20px;
+font-size: 24px;
+}
+
+
+
+
+
+.kalendarz {
+  margin-top: 20px;
+background-color: rgba(88, 105, 103, 0.3)  /* #394165 */;
+border-radius: 4px;
+color: #ffffff;
+
+
+
+}
+
+
+.k_name {
+font-size: 18px;
+text-align: center;
+}
+.k_mail {
+color: white;
+text-align: center;
+}
+
+.k_level {
+  font-size: 20px;
+  padding: 5px;
+
+color: white;
+text-align: center;
+}
+
+ .k_exp {
+
+color: #8e96b3;
+text-align: center;
+margin-bottom: 20px;
+}
+
+meter {
+  width: 250px;
+  height: 10px;
+     background: #87C7DE;
+}
+
+
+
+
+.k_photo {
+text-align: center;
+
+}
+
+.k_photo img {
+max-width: 260px;
+border-radius: 50%;
+box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.button1 {
+float: left;
+width: 129px;
+border-right: 1px solid #394165;
+border-top: 4px solid #70ec3e;
+background-color: rgba(88, 105, 103, 1) ;
+padding: 10px;
+font-size: 18px;
+text-align: center;
+height: 31px;
+border-radius: 0 0 4px 4px;
+}
+
+.button2 {
+float: left;
+padding: 10px;
+width: 130px;
+border-top: 4px solid #e64c66;
+background-color: rgba(88, 105, 103, 1) ;
+font-size: 18px;
+text-align: center;
+height: 31px;
+border-radius: 0 0 4px 4px;
+
+}
+
+.kalendarz_header {
+border-radius: 4px 4px 0 0;
+background-color: rgba(88, 105, 103, 1) ;
+text-align: center;
+padding: 15px;
+}
+
+
+ .menu a {
+text-decoration: none;
+color: #ffffff;
+}
+
+.menu li {
+float:left;
+padding-top: 25px;
+font-size: 18px;
+padding-left: 30px;
+padding-right: 30px;
+height: 50px;
+}
+
+
+.menu img {
+margin-right: 10px;
+}
+
+
+.menu li:hover {
+font-size: 18px;
+background-color: #50587c;
+}
+
+ .menu {
+   padding-left: 20px;
+      padding-right: 20px;
+background-color: rgba(88, 105, 103, 1) ;
+border-radius: 4px;
+color: #ffffff;
+height: 75px;
+}
+
+.dzien {
+display: inline-block;
+}
+
+.dzien2 {
+display: inline-block;
+background-color: rgba(88, 105, 103, 1) ;
+}
+
+ .dzienk {
+color: #3469af;
+font-weight: bold;
+}
+
+.univ {
+ text-align: center;
+ background-color: rgba(88, 105, 103, 0.6) ;
+ padding: 5px;
+}
+
+.data {
+ text-align: center;
+ font-size: 16px;
+}
+
+.godzina img {
+
+vertical-align: middle;
+margin-left: 2px;
+
+}
+
+       .box {
+background-color: rgba(88, 105, 103, 0.8) ;
+border-radius: 4px;
+
+}
+
+
+.zapisz {
+padding: 10px;
+font-size: 18px;
+background: green ;
+text-align: center;
+margin-bottom: 20px;
+
+
+}
+
+
+
+.zapisz a {
+text-decoration: none;
+color: #ffffff;
+}
+
+.wypisz {
+padding: 10px;
+font-size: 18px;
+background-color: red ;
+text-align: center;
+margin-bottom: 20px;
+
+}
+
+.wypisz a {
+text-decoration: none;
+color: #ffffff;
+}
+
+.box_content input {
+
+  background-color: rgba(88, 105, 103, 1) ;
+  padding: 5px;
+  width: 350px;
+  border: 1px solid #2d3556;
+  color: #ffffff;
+  border-radius: 4px;    
+
+}
+
